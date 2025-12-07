@@ -34,7 +34,8 @@ This document provides a structured installation guide for ComfyUI utilizing the
 | 3. | https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/ | **ROCm Library Replacement** | Download files and **replace the roblas binary files**. |
 | 4. | https://github.com/lshqqytiger/ZLUDA/releases/download/LATEST_TAG/ZLUDA-windows-rocm6-amd64.zip | **ZLUDA Main Program** | **ACTION**: Copy the download link for the latest `zluda.zip`. (Replace `LATEST_TAG` with the actual release tag, e.g., `rel.d60bddbc870827566b3d2d417e00e1d2d8acc026`). |
 | 5. | (CMD Command) | **ComfyUI-Zluda Clone** | Run: `git clone https://github.com/patientx/ComfyUI-Zluda` |
-| 6. | (CMD Command) | **Execute Patch and Launch** | **a.** Run `patch zluda 2` then **paste the Zluda zip link**. **b.** Run `run comfyui`. |
+| 6. | open path | **ComfyUI-Zluda Clone** | Run: install-n.bat |
+| 7. | (CMD Command) | **Execute Patch and Launch** | **a.** Run `patch zluda 2` then **paste the Zluda zip link**. **b.** Run `run comfyui`. |
 
 ---
 ---
@@ -70,7 +71,8 @@ This document provides a structured installation guide for ComfyUI utilizing the
 | 3. | https://github.com/likelovewant/ROCmLibs-for-gfx1103-AMD780M-APU/releases/ | **ROCm 库替换** | 下载文件并**替换 roblas 二进制文件**。 |
 | 4. | https://github.com/lshqqytiger/ZLUDA/releases/download/LATEST_TAG/ZLUDA-windows-rocm6-amd64.zip | **ZLUDA 主程序** | **操作**: 复制最新 `zluda.zip` 文件的下载链接 (替换 `LATEST_TAG` 为实际版本号，例如 `rel.d60bddbc870827566b3d2d417e00e1d2d8acc026`)。 |
 | 5. | (CMD 命令) | **ComfyUI-Zluda 克隆** | 运行: `git clone https://github.com/patientx/ComfyUI-Zluda` |
-| 6. | (CMD 命令) | **执行补丁和启动** | **a.** 运行 `patch zluda 2` **并粘贴 Zluda zip 链接**。 **b.** 运行 `run comfyui`。 |
+| 6. | open path | **ComfyUI-Zluda Clone** | Run: install-n.bat |
+| 7. | (CMD 命令) | **执行补丁和启动** | **a.** 运行 `patch zluda 2` **并粘贴 Zluda zip 链接**。 **b.** 运行 `run comfyui`。 |
 
 ---
 参考/Re：
